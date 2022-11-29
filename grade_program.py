@@ -9,19 +9,20 @@
 # determine middle percentage of a grade level
 def calc_mark(level):
     levels = {
-        "4+": "Level {} has a middle percentage of 98%".format(level),
-        "4": "Level {} has a middle percentage of 91%".format(level),
-        "4-": "Level {} has a middle percentage of 83%".format(level),
-        "3+": "Level {} has a middle percentage of 78%".format(level),
-        "3": "Level {} has a middle percentage of 75%".format(level),
-        "3-": "Level {} has a middle percentage of 71%".format(level),
-        "2+": "Level {} has a middle percentage of 68%".format(level),
-        "2": "Level {} has a middle percentage of 65%".format(level),
-        "2-": "Level {} has a middle percentage of 61%".format(level),
-        "1+": "Level {} has a middle percentage of 58%".format(level),
-        "1": "Level {} has a middle percentage of 55%".format(level),
-        "1-": "Level {} has a middle percentage of 51%".format(level),
-        "R": "Level {} has a middle percentage of 25%".format(level),
+        "4+": "Level {} has a middle percentage of  95% - 100%".format(level),
+        "4": "Level {} has a middle percentage of 87% - 94%".format(level),
+        "4-": "Level {} has a middle percentage of 80% - 86%".format(level),
+        "3+": "Level {} has a middle percentage of 77% - 79%".format(level),
+        "3": "Level {} has a middle percentage of 73% - 76%".format(level),
+        "3-": "Level {} has a middle percentage of 70% - 72%".format(level),
+        "2+": "Level {} has a middle percentage of 67% - 69%".format(level),
+        "2": "Level {} has a middle percentage of 63% - 66%".format(level),
+        "2-": "Level {} has a middle percentage of 60% - 62%".format(level),
+        "1+": "Level {} has a middle percentage of 57% - 59%".format(level),
+        "1": "Level {} has a middle percentage of 53% - 56%".format(level),
+        "1-": "Level {} has a middle percentage of 50% - 52%".format(level),
+        "R": "Level {} has a middle percentage of Below 50%".format(level),
+
     }
     return levels.get(level, -1)
 
